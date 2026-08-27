@@ -6,6 +6,7 @@ bi-temporal cross-attention (BCA) for cross-domain remote-sensing change detecti
 
 ![TIDE overview](figures/tide_method.png)
 
+
 ## Installation
 
 Python 3.10+ and a CUDA-capable PyTorch installation are recommended.
