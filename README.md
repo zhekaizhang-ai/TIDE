@@ -4,7 +4,6 @@ TIDE is a parameter-efficient bi-temporal change-detection framework built on
 DINOv2. It combines change-aware low-rank adaptation (CDLoRA) with
 bi-temporal cross-attention (BCA) for cross-domain remote-sensing change detection.
 
-![TIDE overview](figures/tide_method.png)
 
 
 ## Architecture
