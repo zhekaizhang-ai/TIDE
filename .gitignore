@@ -1,0 +1,41 @@
+# Datasets, trained models, and experiment outputs
+data/*
+!data/__init__.py
+!data/levir_dataset.py
+checkpoints/
+experiments/
+logs/
+results/
+
+# Generated visualizations and local analysis artifacts
+figures/*
+!figures/tide_method.png
+!figures/method_figure.py
+sh/
+
+# Python, notebook, and tooling caches
+__pycache__/
+*.py[cod]
+.ipynb_checkpoints/
+**/.ipynb_checkpoints/
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.cache/
+
+# Local editor/assistant settings and environments
+.claude/
+.vscode/
+.idea/
+.env
+.env.*
+.venv/
+venv/
+env/
+
+# Secrets and local configuration
+*.key
+*.pem
+*.p12
+*.crt
+secrets.*
